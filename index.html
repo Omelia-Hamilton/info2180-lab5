@@ -12,21 +12,26 @@
 	</head>
 
 	<body>
+
 		<header>
 			<h1>World Database Lookup</h1>
+			 <img src="Images/world.png" alt="Image"  class="logo">
 		</header>
 
+
 		<main>
-			<div id="controls">
-				<label for="country">Country:</label>
-				<input id="country" type="search" name="country" placeholder="Enter country name" />
-				<button id="lookup">Lookup</button>
-			</div>
+			<form> 
+				<label for="country"></label>
+				<input type =text id="country" placeholder="Enter country name" />
+				<input type ="button" id="lookupButton" value="Lookup Country">
+				<input type = "button" id="lookupButton" value="Lookup Cities"> 
+            </form>
 			
 			<div id="result">
 				<!-- countries will appear here -->
 			</div>
 		</main>
 
+		
 	</body>
 </html>
