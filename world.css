@@ -1,1 +1,77 @@
 /* Add your own styles */
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+header{
+    display: grid;
+    place-items: center;
+    background-color: rgb(50, 80, 157);
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.logo{
+    padding: 0;
+    margin: 10px;
+    border-radius: 10px;
+    max-width: 100px;
+    /*margin-top: -5px; /* Negative margin to move image closer to heading */
+    
+}
+
+
+body{
+    background-color: gainsboro;
+}
+
+input{
+    margin: 10px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+input[type="text"] {
+    font-size: 16px; /* Make the text readable */
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    padding: 0;
+    margin: 30px;
+    width: 500px;
+    height: 35px;
+    background: white;
+}
+
+
+input[type="button"]{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: grey;
+    font-size: 12px;
+    width: 150px;
+    height: 25px;
+
+}
+
+input[type="button"]:hover{
+    background-color: green;
+}
